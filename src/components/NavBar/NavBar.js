@@ -87,7 +87,7 @@ class NavBar extends PureComponent {
         <div className="navbar-branding">
           <Link className="navbar-brand" to="/">
             <img src={logoImg} alt="logo" />
-            <b>LANIF</b>
+            <b>后台管理</b>
             Admin
           </Link>
           <span className="toggle_sidemenu_l" onClick={onCollapseLeftSide}>
